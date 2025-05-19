@@ -6,6 +6,7 @@
   list-style-type: none;
   text-decoration: none;
 }
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -431,21 +432,21 @@ a:hover {
   color: rgba(29, 33, 48, 1);
   max-width: 381px;
 }
-.edn_page{
-width: 56px;
-height: 56px;
-border-radius: 50%;
-border: none;
+.edn_page {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
 }
-@media (max-width:1233px) {
-  .BoxEnd_page{
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 10px;
+@media (max-width: 1233px) {
+  .BoxEnd_page {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
-@media  (max-width:376px) {
-  .BoxEnd_page h3{
+@media (max-width: 376px) {
+  .BoxEnd_page h3 {
     font-size: 12px;
   }
 }
